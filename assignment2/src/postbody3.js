@@ -1,6 +1,9 @@
 import React from 'react';
 import picture from './image/albums/redcloud.jpeg';
 import images from './image/avatars/wei.jpeg';
+
+//this part is one of PostBody, click the up button to increse the voting counter through a handleClick function
+//to reset state
 class PostBody3 extends React.Component {
   constructor(props) {
     super(props)
