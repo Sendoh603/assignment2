@@ -2,6 +2,12 @@ import React from 'react';
 import picture from './image/albums/algorythm.jpeg';
 import images from './image/avatars/wei.jpeg';
 class PostBody extends React.Component {
+  constructor(props) {
+  super(props)
+  this.state = {
+    counter:0
+  }
+}
   render () {
 
     return (
@@ -14,7 +20,7 @@ class PostBody extends React.Component {
   
         <div id="rightContainer">
   
-          <button>counting</button>
+          <button onClick={this.props.onClick}>UP {this.state.counter}</button>
           <div>Algorythm</div>
           <div>Beyond Creation, 2018</div>
           <div>
