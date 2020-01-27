@@ -31,7 +31,7 @@ class PostBody3 extends React.Component {
         <div id="rightContainer">
   
           <button onClick={() =>this.handleClick()}>UP {this.state.counter}</button>
-          <div>Under the Red Cloud</div>
+          <a href='https://www.amazon.ca/Under-Red-Cloud-Amorphis-2015-10-21/dp/B01M74P7EE/ref=sr_1_3?keywords=under+the+red+cloud&qid=1579888516&s=electronics&sr=1-3-catcorr'>Under the Red Cloud</a>
           <div>Amorphis, 2015</div>
           <div>
             Submitted by:
