@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
-import Incomplete from './TodoList.js';
+import Root from './root';
 
-ReactDOM.render(<Incomplete />, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById('root'));
