@@ -5,8 +5,12 @@ import PostBody2 from './postbody2.js';
 import PostBody3 from './postbody3.js';
 import PostBody4 from './postbody4.js';
 
+//there are two components under "root" tag - Header and PostBody
+//under PostBody component, there are four components - PostBody1, PostBody2, PostBody3, and PostBody4
+//each PostBody display one album
+//I put the four PostBodys in an array in the state, I want to compare each PostBody's counter and 
+//make a right order from high counter to low counter, then put the array of components into PostBody component
 
-  
 class Root extends React.Component {
 constructor(props) {
   super(props)
@@ -16,6 +20,8 @@ constructor(props) {
   }
   this.renderPostBody = this.renderPostBody.bind(this);
 }
+
+//this is the coding for comparing the voting counter, the higher one appears in the top of the PostBody component
 renderPostBody () {
   let max
   for (let i = 0; i < this.state.post.length; i++) {
@@ -27,11 +33,10 @@ renderPostBody () {
     }
   }
   this.setState({post:this.state.post});
-  
-  
 }
-  render () {
 
+//this function above does not work, so I put in a button, but it still does not work
+  render () {
     return (
       <div>
       <Header />
