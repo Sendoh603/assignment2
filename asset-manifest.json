@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/assignment2/static/css/main.3e7e3649.chunk.css",
+    "main.js": "/assignment2/static/js/main.1d9cf18a.chunk.js",
+    "main.js.map": "/assignment2/static/js/main.1d9cf18a.chunk.js.map",
+    "runtime-main.js": "/assignment2/static/js/runtime-main.21c0ddf3.js",
+    "runtime-main.js.map": "/assignment2/static/js/runtime-main.21c0ddf3.js.map",
+    "static/js/2.c1f04fe4.chunk.js": "/assignment2/static/js/2.c1f04fe4.chunk.js",
+    "static/js/2.c1f04fe4.chunk.js.map": "/assignment2/static/js/2.c1f04fe4.chunk.js.map",
+    "index.html": "/assignment2/index.html",
+    "precache-manifest.58422368b0c5f5e84d82d87a54b20afc.js": "/assignment2/precache-manifest.58422368b0c5f5e84d82d87a54b20afc.js",
+    "service-worker.js": "/assignment2/service-worker.js",
+    "static/css/main.3e7e3649.chunk.css.map": "/assignment2/static/css/main.3e7e3649.chunk.css.map",
+    "static/js/2.c1f04fe4.chunk.js.LICENSE": "/assignment2/static/js/2.c1f04fe4.chunk.js.LICENSE",
+    "static/media/archspire.jpeg": "/assignment2/static/media/archspire.ca23807e.jpeg",
+    "static/media/redcloud.jpeg": "/assignment2/static/media/redcloud.ee8bab3a.jpeg",
+    "static/media/twilight.jpeg": "/assignment2/static/media/twilight.d19bba68.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21c0ddf3.js",
+    "static/js/2.c1f04fe4.chunk.js",
+    "static/css/main.3e7e3649.chunk.css",
+    "static/js/main.1d9cf18a.chunk.js"
+  ]
+}
