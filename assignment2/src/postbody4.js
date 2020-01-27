@@ -31,7 +31,7 @@ class PostBody4 extends React.Component {
         <div id="rightContainer">
   
           <button onClick={() =>this.handleClick()}>UP {this.state.counter}</button>
-          <div>Twilight of the Thunder God</div>
+          <a href='https://www.amazon.ca/Twilight-Thunder-God-Amon-Amarth/dp/B001CISHU4/ref=sr_1_1?keywords=amon+amarth+twilight+of+the+thunder+god&qid=1579888584&s=music&sr=1-1'>Twilight of the Thunder God</a>
           <div>Amon Amarth, 2008</div>
           <div>
             Submitted by:
