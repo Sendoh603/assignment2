@@ -1,5 +1,6 @@
 import React from 'react';
-
+import picture from './image/albums/algorythm.jpeg';
+import images from './image/avatars/wei.jpeg';
 class PostBody extends React.Component {
   render () {
 
@@ -8,7 +9,7 @@ class PostBody extends React.Component {
       <div id="box">
 
         <div id="leftContainer">
-          <img src="./image/albums/algorythm.jpeg" id="albumsPicture">
+          <img src={picture} id="albumsPicture" alt="haha"/>
         </div>
   
         <div id="rightContainer">
@@ -18,7 +19,7 @@ class PostBody extends React.Component {
           <div>Beyond Creation, 2018</div>
           <div>
             Submitted by:
-            <img src="./image/avatars/wei.jpeg" id="submmittedPicture">
+            <img src={images} id="submmittedPicture" alt="haha"/>
           </div>
   
         </div>
