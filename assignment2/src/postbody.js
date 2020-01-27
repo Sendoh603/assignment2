@@ -5,8 +5,15 @@ class PostBody extends React.Component {
   constructor(props) {
   super(props)
   this.state = {
-    counter:0
+    counter:0, 
+    add () {
+      return this.counter + 1;
+    }
   }
+}
+handleClick() {
+  let afterPlusNumber = this.add();
+  this.setState({counter:afterPlusNumber});
 }
   render () {
 
@@ -20,7 +27,7 @@ class PostBody extends React.Component {
   
         <div id="rightContainer">
   
-          <button onClick={this.props.onClick}>UP {this.state.counter}</button>
+          <button onClick={this.props.handleClick()}>UP {this.state.counter}</button>
           <div>Algorythm</div>
           <div>Beyond Creation, 2018</div>
           <div>
