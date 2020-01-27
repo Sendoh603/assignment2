@@ -31,7 +31,7 @@ class PostBody1 extends React.Component {
         <div id="rightContainer">
   
           <button onClick={() =>this.handleClick()}>UP {this.state.counter}</button>
-          <div>Algorythm</div>
+          <a href='https://www.amazon.ca/Algorythm-Beyond-Creation/dp/B07G2DLVGY/ref=sr_1_1?qid=1579888556&refinements=p_32%3ABeyond+Creation&s=music&sr=1-1'>Algorythm</a>
           <div>Beyond Creation, 2018</div>
           <div>
             Submitted by:
