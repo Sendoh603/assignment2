@@ -33,3 +33,7 @@ body {
   div {
     height: 20px;
   }
+
+  a {
+    display: block;
+  }
